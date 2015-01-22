@@ -8,9 +8,9 @@ def ruspeace(a, b):
 ##        print(a, b)
         if a % 2 == 1:
             z.append(b)
-            for i in z:
-                num = num + i
+    for i in z:
+        num = num + i
     return num
             
 ax = ruspeace(10,6)
-print(ax) 
+print(ax)
