@@ -1,4 +1,6 @@
 def ruspeace(a, b):
+    if a == 1:
+        a += 1
     z = []
     num = 0
     while a > 1:
