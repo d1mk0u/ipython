@@ -1,3 +1,5 @@
+## Russian Peasant multiplication
+## Author DmitriS
 def ruspeace(a, b):
     if a == 1:
         a = a * b
@@ -18,5 +20,6 @@ def ruspeace(a, b):
         num = num + i
     return num
 
-ax = ruspeace(23,1004)
-print(ax)
+a = input("Insert Your first number: ")
+b = input("Insert Your second number: ")
+print(ruspeace(a, b))
