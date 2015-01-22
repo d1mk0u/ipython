@@ -1,5 +1,5 @@
 ## Russian Peasant multiplication
-## Russian Peasant multiplication
+## Author DmitriS
 while True:
     def ruspeace(a, b):
         if a == 1:
@@ -22,7 +22,6 @@ while True:
             num = num + i
         print("a * b equal to", num)
         return "It Works"
-
     a = int(input("Insert Your first number: "))
     b = int(input("Insert Your second number: "))
     print(ruspeace(a, b))
